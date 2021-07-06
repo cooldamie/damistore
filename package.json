@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build --prod",
     "watch": "ng build --watch --configuration development",
+    "publish": "ng build --base-href / --prod --aot",
     "test": "ng test"
   },
   "private": true,
