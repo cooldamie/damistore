@@ -2,8 +2,9 @@
   "name": "damistore",
   "version": "0.0.0",
   "scripts": {
+    "heroku-postbuild":"ng build --prod",
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -13,7 +14,6 @@
     "node": "14"
   },
   "dependencies": {
-
     "@angular-devkit/core": "^12.1.1",
     "@angular/animations": "^12.1.1",
     "@angular/common": "^12.1.1",
